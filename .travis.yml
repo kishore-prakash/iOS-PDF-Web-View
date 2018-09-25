@@ -1,0 +1,4 @@
+language: generic
+os: osx
+osx_image: xcode10
+script: xcodebuild -scheme "PDF Web View" install DSTROOT=~ CODE_SIGN_IDENTITY=""
